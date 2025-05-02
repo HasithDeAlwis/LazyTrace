@@ -1,8 +1,10 @@
+{-# LANGUAGE ImportQualifiedPost #-}
+
 module Main where
 
-import qualified MyLib (someFunc)
+import MyLib qualified (findFetch)
 
 main :: IO ()
 main = do
-  putStrLn "Hello, Haskell!"
-  MyLib.someFunc
+  res <- MyLib.findFetch
+  print res
