@@ -1,0 +1,55 @@
+# Cabal build artifacts
+/dist/
+/dist-newstyle/
+/cabal.project.local
+/cabal.project.freeze
+/*.cabal.lock
+
+# Stack (if used)
+/.stack-work/
+
+# Nix
+/result
+/.direnv/
+.envrc
+*.gc-daemon-log
+
+# Haskell REPL
+*.hi
+*.o
+*.dyn_o
+*.dyn_hi
+*.prof
+*.aux
+*.hp
+*.eventlog
+*.tix
+
+# Binary artifacts
+*.exe
+*.out
+*.so
+*.dynlib
+*.a
+*.dll
+
+# MacOS
+.DS_Store
+
+# Vim/Emacs
+*.swp
+*.swo
+*~
+.#*
+*.bak
+*.tmp
+*.elc
+
+# VSCode
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Logs
+*.log
